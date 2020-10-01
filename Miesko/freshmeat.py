@@ -10,7 +10,7 @@ import datetime
 BaseCog = getattr(commands, "Cog", object)
 
 
-class Freshmeat(BaseCog):
+class Miesko(BaseCog):
 
     def __init__(self, bot):
         self.bot = bot
