@@ -24,7 +24,7 @@ class Miesko(BaseCog):
     @commands.command()
     @commands.guild_only()
     @checks.admin_or_permissions(kick_members=True)
-    async def freshmeat(self, ctx, hours: int = 24):
+    async def miesko(self, ctx, hours: int = 24):
         """Show the members who joined in the specified timeframe
 
         `hours`: A number of hours to check for new members, must be above 0"""
