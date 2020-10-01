@@ -44,7 +44,7 @@ class Freshmeat(BaseCog):
             member_string += f"\n{member[0]} ({member[1]})"
 
         pages = []
-        for page in pagify(escape(member_string, formatting=True), page_length=1000):
+        for page in pagify(escape(member_string, formatting=True), page_length=250):
             embed = discord.Embed(description=page)
             embed.set_author(
                 name=f"{ctx.author.display_name}'s freshmeat of the day.",
